@@ -1,0 +1,51 @@
+<!DOCTYPE HTML>
+<html>
+<link rel="stylesheet" href="qs.css">
+<meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+
+<body>
+
+    <audio src="move.wav" id="tic"></audio>
+    <audio src="win.wav" id="win"></audio>
+    <audio src="res.wav" id="res"></audio>
+    <div class="head">
+
+        Time
+        <span id="time">0</span>
+        Score
+        <span id="score">0</span>
+        <button onclick="play()">Play</button>
+
+        <form name="q" class="q">
+            <label>Easy</label>
+            <input type="radio" name="level" value="e"></li>
+            <label>midium</label>
+            <input type="radio" name="level" value="m"></li>
+            <label>diffiult</label>
+            <input type="radio" name="level" value="d"></li>
+        </form>
+    </div>
+    <div class="containers">
+        <div>
+            <div class="mo"><img src="mous.png" class="m" id="1" onmouseover="touch()"></div><img src="pizza.png">
+        </div>
+        <div>
+            <div class="mo"><img src="mous.png" class="m" id="2" onmouseover="touch()"></div><img src="pizza.png">
+        </div>
+        <div>
+            <div class="mo"><img src="mous.png" class="m" id="3" onmouseover="touch()"></div><img src="pizza.png">
+        </div>
+        <div>
+            <div class="mo"><img src="mous.png" class="m" id="4" onmouseover="touch()"></div><img src="pizza.png">
+        </div>
+        <div>
+            <div class="mo"><img src="mous.png" class="m" id="5" onmouseover="touch()"></div><img src="pizza.png">
+        </div>
+        <div>
+            <div class="mo"><img src="mous.png" class="m" id="6" onmouseover="touch()"></div><img src="pizza.png">
+        </div>
+    </div>
+    <script src="q.js"></script>
+</body>
+
+</html>
